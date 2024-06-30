@@ -19,7 +19,7 @@ endif
 .PHONY: run
 run: node_modules ## Runs app
 	@echo Running Mattermost Web App for development
-
+	npm install
 	npm run run
 
 .PHONY: stop
